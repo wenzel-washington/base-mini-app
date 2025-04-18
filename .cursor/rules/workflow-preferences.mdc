@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor AI - Coding Workflow Directives
+
+*   **Scope Limitation:** When responding to a prompt or generating code, strictly modify only the code sections directly relevant to the current task. Do not alter unrelated files or code blocks.
+
+*   **Preserve Existing Architecture:** Maintain the established coding patterns, architectural design, and overall structure of the surrounding code unless explicitly instructed to refactor or redesign a specific part. Avoid unsolicited major architectural changes.
+
+*   **Contextual Awareness:** Before finalizing code changes, analyze the potential impact on other functions, methods, or parts of the codebase that might interact with the modified section. Aim to avoid introducing side effects.
+
+*   **Test Generation (Conditional):** If the task involves creating new functionality or significantly altering existing logic, and if requested or appropriate within the context, generate thorough unit or integration tests covering the changes.
+
+*   **Readability Priority:** Generate code that is clear, well-formatted, and adheres to common readability standards for the language in use. Add comments or documentation only where necessary for complex logic or if explicitly requested.
+
+*   **Error Handling Implementation:** When generating code that involves operations prone to failure (I/O, network requests, complex calculations), implement appropriate and robust error handling mechanisms (e.g., try-catch blocks, result types).

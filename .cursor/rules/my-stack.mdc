@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Technical Stack
+
+-   **Backend:** Next.js API Routes / Vercel Serverless Functions (using Node.js runtime)
+-   **Frontend:** Next.js / React, utilizing OnchainKit & Base Minikit libraries for wallet interaction
+-   **Database:** Upstash Redis (Cloud Key-Value Store for address-to-code mapping)
+-   **Environments:** Separate configurations/resources for dev (local), preview (Vercel), and prod (Vercel) recommended
+-   **Deployment Platform:** Vercel (hosting frontend, serverless functions, and environment management)
+-   **Testing:** JavaScript/TypeScript testing frameworks (e.g., Jest, React Testing Library)
